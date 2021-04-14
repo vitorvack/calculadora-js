@@ -1,0 +1,51 @@
+body {
+    background-color: #fafafa;
+    font: normal 12pt arial;
+    color: #212121;
+}
+
+input {
+    font: normal 18pt arial;
+    width: 100px;
+
+}
+
+div#res {
+    margin-top: 35px;
+}
+
+div#main {            
+    text-align: center;
+    margin-top: 100px
+}
+
+.resultado {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 3px;
+    border: 1px solid #03a9f4;
+    color: #fff;
+    background-color: #03a9f4;
+    font-size: 12pt;
+    height: 35px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.numbers {
+    border-radius: 3px;
+    border: 1px solid;
+    text-indent: 5px;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    font-size: 12pt;
+}
+
+#resultado {
+    text-align: center;
+    font-size: 18pt;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body> 
+    <div id="main">        
+        <h1>Calculadora - Digite os valores e escolha a operação</h1>
+        <input class="numbers" type="number" name="number1" id="number1"> +
+        <input class="numbers" type="number" name="number2" id="number2">
+        
+        <br>
+        <br />
+
+        <div>
+            <input type="button" class="btn" value="Somar" onclick="somar()">
+
+            <input type="button" class="btn" value="Subtrair" onclick="subtrair()">        
+
+            <input type="button" class="btn" value="Multiplicar" onclick="multiplicar()">
+    
+            <input type="button" class="btn" value="Dividir" onclick="dividir()">
+            
+            <input type="button" class="btn" value="Resto da Divisão" onclick="restoDivisao()">
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
